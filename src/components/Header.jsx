@@ -14,6 +14,9 @@ const Header = () => (
         <li id='HomeLI'>
             <Link to="/" id='HomeLink' style={{  backgroundImage: "url('"+BASENAME+"/png-panda-compressed.png')"}}></Link>
         </li>
+        <li id='HomeLI'>
+            <Link to="/" id='HomeLink' style={{  backgroundImage: "url('"+BASENAME+"/png-panda-compressed.png')"}}></Link>
+        </li>
         <li>
             <Link to="/Stories">Stories</Link>
         </li>
