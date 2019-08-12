@@ -23,6 +23,9 @@ const Header = () => (
         <li>
             <Link to="/BitTorrent">Extensive give for using BitTorrent</Link>
         </li>
+        <li>
+            <Link to="/cacas">Caca</Link>
+        </li>
     </nav>
 )
 
