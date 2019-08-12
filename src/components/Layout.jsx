@@ -32,7 +32,8 @@ const NotFound = ({location}) => (
             top: "40%",
             left: '20%'}}>
             <h1>
-                404 - Je suis désolé Chérie, je n'ai pas encore terminé
+                404 - Je suis désolé Chérie, je n'ai pas encore terminé<br/>
+                C'est pas grave je t'aime
             </h1>
             <h2>The website {location.pathname} does not exists</h2>
         </div>
@@ -47,7 +48,8 @@ const Layout = () => (
             <Route exact path="/" component={Home} />
             <Route exact path="/Stories" component={Stories} />
             <Route path={"/Stories/Cherie"} component={Cherie}/>
-            <Route path={"/Artisto"} component={Artisto}/>
+            <Route path={"/Stories/Artisto"} component={Artisto}/>
+            <Route path={"/Places"} component={NotFound} />
             <Route component={NotFound} />
         </Switch>
         </div>
